@@ -90,7 +90,7 @@ public class Superviviente extends Activables {
         System.out.println(getZombiesEliminados());
         System.out.println(getHeridas());
     }
-    @Override
+    //@Override
     public void mover(int numeroZombie){
         if (tieneAccionesRestantes(accionesRestantes)){
             switch (numeroZombie){
@@ -113,6 +113,7 @@ public class Superviviente extends Activables {
             }
         }else{
             System.out.println("No tiene acciones o no se puede mover");
+            System.out.println("A");
         }
 
     }
